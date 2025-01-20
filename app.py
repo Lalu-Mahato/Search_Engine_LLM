@@ -6,7 +6,7 @@ from langchain.agents import AgentType, initialize_agent
 from langchain_community.utilities import WikipediaAPIWrapper, ArxivAPIWrapper
 from langchain_community.tools import WikipediaQueryRun, ArxivQueryRun, DuckDuckGoSearchRun
 
-# Setup App - Search Engine
+# Setup Search Engine App
 st.title("🔎 LangChain - Chat with search")
 """
     In this example, we're using `StreamlitCallbackHandler` to display the thoughts and actions of 
